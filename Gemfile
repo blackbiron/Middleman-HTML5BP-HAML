@@ -1,9 +1,10 @@
-source :rubygems
+source "https://rubygems.org"
 
-gem "middleman", "~>3.0.5"
+gem "middleman", ">=3.0.13"
 gem "middleman-favicon-maker"
 gem "middleman-livereload"
-gem "susy", "~>1.0.5"
+gem "addressable"
+gem "haml"
+gem "susy", ">=1.0.8"
 gem "redcarpet"
-
-gem 'coffee-filter' # Coffeescript filter for HAML
+gem "yui-compressor"
